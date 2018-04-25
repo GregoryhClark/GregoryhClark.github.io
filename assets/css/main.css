@@ -1578,6 +1578,7 @@
 
 			#main-wrapper {
 				padding: 3em 0em 0em 0em;
+				text-align: center;
 			}
 
 			#footer-wrapper {
@@ -2348,4 +2349,10 @@
 	}
 	#send_message :disabled{
 		background: #ccc
+	}
+	#home_h1{
+		position: relative;
+		font-size:65px;
+		margin:5px;
+		padding:25px;
 	}
