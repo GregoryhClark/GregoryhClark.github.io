@@ -2341,3 +2341,11 @@
 	.modal_image{
 		height: 20vh;
 	}
+	#test_overlap{
+		position: absolute;
+		padding: 50px 50px 50px 50px; 
+		
+	}
+	#send_message :disabled{
+		background: #ccc
+	}
