@@ -2350,12 +2350,13 @@
 	#send_message :disabled{
 		background: #ccc
 	}
+	.spacer{
+		height:40vh;
+	}
 	#home_h1{
 		position: relative;
 		font-size:65px;
 		margin:5px;
 		padding:25px;
 	}
-	.spacer{
-		height:40vh;
-	}
+
