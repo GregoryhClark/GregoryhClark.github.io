@@ -2350,13 +2350,26 @@
 	#send_message :disabled{
 		background: #ccc
 	}
-	.spacer{
+	/* .spacer{
 		height:40vh;
-	}
+	} */
 	#home_h1{
 		position: relative;
 		font-size:65px;
 		margin:5px;
-		padding:25px;
+
+	}
+	.project_image :hover{
+		cursor: pointer;
+	}
+	.home_wrapper{
+		position: relative;
+		vertical-align: center;
+		line-height:normal;
+		text-align: center;
+	}
+	.home_content_wrapper{
+		padding-top:30vh;
+		padding-bottom: 30vh;
 	}
 
