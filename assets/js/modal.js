@@ -13,9 +13,10 @@ span.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == modal1 || event.target == modal2) {
+    if (event.target === modal1 || event.target === modal2 || event.target === modal3) {
         modal1.style.display = "none";
         modal2.style.display = "none";
+        modal3.style.display = "none";
     }
 }
 
@@ -31,6 +32,21 @@ btn2.onclick = function() {
 
 span2.onclick = function() {
     modal2.style.display = "none";
+    
+}
+
+var modal3 = document.getElementById('project_3_modal');
+
+var btn3 = document.getElementById("project_3_btn");
+
+var span3 = document.getElementsByClassName("close_modal")[2];
+
+btn3.onclick = function() {
+    modal3.style.display = "block";
+}
+
+span3.onclick = function() {
+    modal3.style.display = "none";
     
 }
 
