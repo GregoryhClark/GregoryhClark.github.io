@@ -2351,9 +2351,7 @@
 	#send_message :disabled{
 		background: #ccc
 	}
-	/* .spacer{
-		height:40vh;
-	} */
+
 	#home_h1{
 		position: relative;
 		font-size:65px;
@@ -2372,5 +2370,9 @@
 	.home_content_wrapper{
 		padding-top:30vh;
 		padding-bottom: 30vh;
+	}
+	.socialMediaHandles a{
+		margin:20px;
+		font-size: 80px;
 	}
 
