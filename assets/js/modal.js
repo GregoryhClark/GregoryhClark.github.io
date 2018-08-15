@@ -13,10 +13,11 @@ span.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target === modal1 || event.target === modal2 || event.target === modal3) {
+    if (event.target === modal1 || event.target === modal2 || event.target === modal3 || event.target === modal4 ) {
         modal1.style.display = "none";
         modal2.style.display = "none";
         modal3.style.display = "none";
+        modal4.style.display = "none";
     }
 }
 
@@ -47,6 +48,21 @@ btn3.onclick = function() {
 
 span3.onclick = function() {
     modal3.style.display = "none";
+    
+}
+
+var modal4 = document.getElementById('project_4_modal');
+
+var btn4 = document.getElementById("project_4_btn");
+
+var span4 = document.getElementsByClassName("close_modal")[3];
+
+btn4.onclick = function() {
+    modal4.style.display = "block";
+}
+
+span4.onclick = function() {
+    modal4.style.display = "none";
     
 }
 
