@@ -38,7 +38,7 @@ span2.onclick = function() {
 
 var modal3 = document.getElementById('project_3_modal');
 
-var btn3 = document.getElementById("project_3_btn");
+var btn3 = document.getElementById("proj3");
 
 var span3 = document.getElementsByClassName("close_modal")[2];
 
